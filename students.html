@@ -30,6 +30,30 @@
 
 /* Larger, more readable typography in topic-selection infographic */
 .topic-picker-head h3{font-size:32px}.topic-picker-head>div>p{font-size:17px}.topic-picker .guide-tag{font-size:13px}.topic-bank-label{font-size:16px}.topic-bank p{font-size:15px}.topic-bank-button{font-size:15px}.topic-bank small{font-size:13px}.topic-path strong{font-size:19px;line-height:1.35}.topic-path p{font-size:16px;line-height:1.6}.topic-result strong{font-size:18px;line-height:1.4}.topic-result p{font-size:15px;line-height:1.55}.topic-result a{font-size:15px}@media(max-width:550px){.topic-picker-head h3{font-size:28px}.topic-path strong{font-size:18px}.topic-path p{font-size:15px}}
+
+/* Unified visual system: calm surfaces, restrained hover feedback */
+.stage:nth-child(1),.stage:nth-child(2),.stage:nth-child(3),.stage:nth-child(4){background:#fff}
+.stage,.resource{transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+.stage:hover,.resource:hover{border-color:#aac9e8;box-shadow:0 10px 24px #102a4315;transform:translateY(-3px)}
+.stage .num{color:var(--blue)}
+.guide-panel:nth-child(1),.guide-panel:nth-child(2),.guide-panel:nth-child(3),.guide-panel:nth-child(4){border-top:4px solid #1d5fa7}
+.guide-panel{transition:border-color .22s ease,box-shadow .22s ease}
+.guide-panel:hover{border-color:#b7cfe8;box-shadow:0 8px 22px #102a4310}
+.guide-panel details{background:#f8fbff}
+.guide-check{background:#edf4fc}
+.path-one,.path-two,.path-three{background:#f4f8fd;--topic:#173e68}
+.topic-path{border-color:#d8e5f3}
+.topic-path:hover{background:#eaf3ff;border-color:#8eb8e0;transform:translateY(-3px);box-shadow:0 9px 20px #102a4312}
+.topic-icon{background:#e4eef9}
+.topic-result{background:#edf4fc;border-color:#d3e3f3}
+.topic-result-icon{background:#1d5fa7}
+.topic-result strong{color:#173e68}
+.topic-result p{color:#52667d}
+.topic-result a{background:#1d5fa7}
+.topic-result a:hover{background:#174c86}
+.topic-bank{background:#f2f7fd}
+.event{background:#edf4fc}
+@media(prefers-reduced-motion:reduce){.stage,.resource,.guide-panel,.topic-path{transition:none}.stage:hover,.resource:hover,.topic-path:hover{transform:none}}
 </style></head><body>
 <header><div class="container nav"><a class="brand" href="index.html"><span class="logo"><img src="./project-office-logo.png?v=20261117-2" alt="Логотип проектного офиса"></span><span><small>Школа №1502 «Энергия»</small>Проектный офис</span></a><button class="menu" id="menu" aria-label="Открыть меню" aria-expanded="false">☰</button><nav class="navlinks" id="navlinks" aria-label="Основная навигация"><a href="index.html">Главная</a><a class="active" href="students.html" aria-current="page">Ученикам</a><a href="#idea">Педагогам</a><a href="#faq">Родителям</a><a href="#events">Мероприятия</a><a href="#guide">Материалы</a></nav></div></header>
 <main><section class="hero"><div class="container"><div class="hero-inner"><div><span class="eyebrow">Проектный офис · Ученикам</span><h1>Твой проект начинается здесь!</h1><p>От первой идеи до уверенной защиты. Выбирай свой этап, находи полезные материалы и двигайся к результату.</p><div class="actions"><a class="btn primary" href="#stages">Выбрать свой этап →</a> <a class="btn" href="#registration">Регистрация проекта</a></div></div><div class="hero-art" aria-hidden="true"><svg viewBox="0 0 300 250" fill="none"><circle cx="155" cy="124" r="112" fill="#dbeaff"/><rect x="67" y="151" width="177" height="17" rx="8" fill="#1d5fa7"/><rect x="95" y="102" width="119" height="66" rx="8" fill="white" stroke="#102a43" stroke-width="5"/><path d="M106 118h53M106 130h76M106 142h45" stroke="#92b5e1" stroke-width="5" stroke-linecap="round"/><circle cx="74" cy="70" r="21" fill="#f3b18e"/><path d="M39 139v-30c0-19 16-32 35-32s35 13 35 32v30" fill="#1d5fa7"/><circle cx="225" cy="76" r="20" fill="#f3b18e"/><path d="M192 139v-28c0-18 15-31 33-31s33 13 33 31v28" fill="#db2739"/><path d="M128 55l31-15 31 15-31 15-31-15Z" fill="#102a43"/><path d="M181 57v20" stroke="#102a43" stroke-width="4"/><circle cx="181" cy="80" r="5" fill="#db2739"/></svg></div></div></div></section>
